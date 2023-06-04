@@ -3,6 +3,7 @@ I used [this template](https://themeforest.net/item/tokyo-personal-portfolio-tem
 
 todo: 
 - actually use the template
+- design favicon
 - replace placeholder image for pfp
 - hyperlink to chinese/japanese ver in main bio
 - actually make a chinese/japanese ver
