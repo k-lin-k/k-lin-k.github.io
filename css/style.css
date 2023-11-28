@@ -83,10 +83,15 @@ img.svg{
 	clear:both;
 }
 
+@font-face {
+    font-family: 'Tetsubin Gothic'; /*a name to be used later*/
+    src: local('Tetsubin Gothic'), url('https://github.com/k-lin-k/k-lin-k.github.io/blob/main/css/font/tetsubin.ttf') format('ttf'); /*URL to font*/
+}
+
 h1, h2, h3, h4, h5, h6{
 	font-weight:500;
 	line-height: 1.4;
-	font-family: "Montserrat";
+	font-family: "Tetsubin Gothic";
 	color: #000;
 }
 
