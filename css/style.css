@@ -85,7 +85,7 @@ img.svg{
 
 @font-face {
     font-family: 'Tetsubin Gothic'; /*a name to be used later*/
-    src: local('Tetsubin Gothic'), url('https://github.com/k-lin-k/k-lin-k.github.io/blob/main/css/font/tetsubin.ttf') format('ttf'); /*URL to font*/
+    src: local('Tetsubin Gothic'), url('https://github.com/k-lin-k/k-lin-k.github.io/blob/main/css/font/tetsubin.ttf') format('truetype'); /*URL to font*/
 }
 
 h1, h2, h3, h4, h5, h6{
