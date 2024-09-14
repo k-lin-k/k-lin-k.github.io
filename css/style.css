@@ -101,6 +101,16 @@ a{
 	text-decoration: none;
 }
 
+a:link {
+	color: black;
+	text-decoration: underline;
+  }
+  
+  a:visited {
+	color: black;
+	text-decoration: underline;
+  }
+
 .tokyo_tm_all_wrap{
 	width: 100%;
 	height: auto;
