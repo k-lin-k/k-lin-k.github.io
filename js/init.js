@@ -26,6 +26,12 @@ jQuery(document).ready(function(){
 	tokyo_tm_contact_form();
 	tokyo_tm_owl_carousel();
 	
+	document.addEventListener('contextmenu', function(e) {
+  if (e.target.tagName === 'IMG') {
+    e.preventDefault();
+  }
+});
+
 	jQuery(window).load('body', function(){
 		tokyo_tm_my_load();
 	});
