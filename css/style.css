@@ -2386,3 +2386,26 @@ body.modal{
 	.tokyo_tm_modalbox .description_wrap:before{height: 20px;}
 	.tokyo_tm_modalbox .portfolio_main_title{margin-bottom: 20px;}
 }
+
+.force-tiny,
+.force-tiny * {
+  all: unset !important;
+  box-sizing: border-box !important;
+}
+
+.force-tiny {
+  display: inline-block !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+}
+
+.force-tiny img {
+  width: 1% !important;
+  height: 1% !important;
+  object-fit: cover !important;
+}
+
+.force-tiny .main {
+  display: none !important;
+}
