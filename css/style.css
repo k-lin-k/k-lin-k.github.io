@@ -2409,3 +2409,10 @@ body.modal{
 .force-tiny .main {
   display: none !important;
 }
+
+.tokyo_tm_all_wrap .leftpart .menu ul li a,
+.tokyo_tm_all_wrap .leftpart .menu ul li a:link,
+.tokyo_tm_all_wrap .leftpart .menu ul li a:visited,
+.tokyo_tm_all_wrap .leftpart .menu ul li a:hover {
+    text-decoration: none;
+}
