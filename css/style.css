@@ -2410,9 +2410,12 @@ body.modal{
   display: none !important;
 }
 
-.tokyo_tm_all_wrap .leftpart .menu ul li a,
-.tokyo_tm_all_wrap .leftpart .menu ul li a:link,
-.tokyo_tm_all_wrap .leftpart .menu ul li a:visited,
-.tokyo_tm_all_wrap .leftpart .menu ul li a:hover {
-    text-decoration: none;
+.leftpart .menu ul li a:before,
+.leftpart .menu ul li a:after,
+.leftpart .menu ul li.active a:before,
+.leftpart .menu ul li.active a:after {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    opacity: 0 !important;
 }
